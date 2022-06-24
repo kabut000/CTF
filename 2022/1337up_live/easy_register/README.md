@@ -1,0 +1,2 @@
+# Easy Register  
+flag: `1337UP{Y0u_ju5t_r3g15t3r3d_f0r_50m3_p01nt5}`

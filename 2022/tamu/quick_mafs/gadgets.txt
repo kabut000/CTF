@@ -1,0 +1,231 @@
+Gadgets information
+============================================================
+0x0000000000401014 : add ax, word ptr [rbx] ; ret
+0x0000000000401310 : add byte ptr [rax + 0x40], 0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004017a4 : add byte ptr [rax - 0x39], cl ; rol byte ptr [rcx], 0 ; add byte ptr [rax], al ; syscall
+0x00000000004017d9 : add byte ptr [rax], ah ; add byte ptr [rax], al ; syscall
+0x00000000004017f3 : add byte ptr [rax], al ; add byte ptr [rax], al ; nop ; pop rbp ; ret
+0x00000000004017b3 : add byte ptr [rax], al ; mov rax, 0x3c ; syscall
+0x00000000004017a3 : add byte ptr [rax], al ; mov rax, 1 ; syscall
+0x00000000004017f5 : add byte ptr [rax], al ; nop ; pop rbp ; ret
+0x0000000000401009 : add byte ptr [rax], al ; ret
+0x00000000004017aa : add byte ptr [rax], al ; syscall
+0x0000000000401787 : add byte ptr [rsi + 0x2b], ah ; add eax, ebx ; nop ; pop rbp ; ret
+0x0000000000401786 : add byte ptr [rsi + 0x2b], spl ; add eax, ebx ; nop ; pop rbp ; ret
+0x00000000004017a8 : add dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x0000000000401015 : add eax, dword ptr [rbx] ; ret
+0x000000000040178a : add eax, ebx ; nop ; pop rbp ; ret
+0x000000000040100f : and eax, 0x404000 ; add ax, word ptr [rbx] ; ret
+0x000000000040101b : and eax, 0x404002 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401027 : and eax, 0x404004 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401033 : and eax, 0x404006 ; xor ax, word ptr [rbx] ; ret
+0x000000000040103f : and eax, 0x404008 ; add ax, word ptr [rbx] ; ret
+0x000000000040104b : and eax, 0x40400a ; xor ax, word ptr [rbx] ; ret
+0x0000000000401057 : and eax, 0x40400c ; xor ax, word ptr [rbx] ; ret
+0x0000000000401063 : and eax, 0x40400e ; sub ax, word ptr [rbx] ; ret
+0x000000000040106f : and eax, 0x404010 ; sub ax, word ptr [rbx] ; ret
+0x000000000040107b : and eax, 0x404012 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401087 : and eax, 0x404014 ; add ax, word ptr [rbx] ; ret
+0x0000000000401093 : and eax, 0x404016 ; xor ax, word ptr [rbx] ; ret
+0x000000000040109f : and eax, 0x404018 ; sub ax, word ptr [rbx] ; ret
+0x00000000004010ab : and eax, 0x40401a ; xor ax, word ptr [rbx] ; ret
+0x00000000004010b7 : and eax, 0x40401c ; add ax, word ptr [rbx] ; ret
+0x00000000004010c3 : and eax, 0x40401e ; xor ax, word ptr [rbx] ; ret
+0x00000000004010cf : and eax, 0x404020 ; xor ax, word ptr [rbx] ; ret
+0x00000000004010db : and eax, 0x404022 ; xor ax, word ptr [rbx] ; ret
+0x00000000004010e7 : and eax, 0x404024 ; sub ax, word ptr [rbx] ; ret
+0x00000000004010f3 : and eax, 0x404026 ; sub ax, word ptr [rbx] ; ret
+0x00000000004010ff : and eax, 0x404028 ; add ax, word ptr [rbx] ; ret
+0x000000000040110b : and eax, 0x40402a ; xor ax, word ptr [rbx] ; ret
+0x0000000000401117 : and eax, 0x40402c ; xor ax, word ptr [rbx] ; ret
+0x0000000000401123 : and eax, 0x40402e ; sub ax, word ptr [rbx] ; ret
+0x000000000040112f : and eax, 0x404030 ; xor ax, word ptr [rbx] ; ret
+0x000000000040113b : and eax, 0x404032 ; add ax, word ptr [rbx] ; ret
+0x0000000000401147 : and eax, 0x404034 ; add ax, word ptr [rbx] ; ret
+0x0000000000401153 : and eax, 0x404036 ; add ax, word ptr [rbx] ; ret
+0x000000000040115f : and eax, 0x404038 ; sub ax, word ptr [rbx] ; ret
+0x000000000040116b : and eax, 0x40403a ; xor ax, word ptr [rbx] ; ret
+0x0000000000401177 : and eax, 0x40403c ; sub ax, word ptr [rbx] ; ret
+0x0000000000401183 : and eax, 0x40403e ; xor ax, word ptr [rbx] ; ret
+0x000000000040118f : and eax, 0x404040 ; xor ax, word ptr [rbx] ; ret
+0x000000000040119b : and eax, 0x404042 ; sub ax, word ptr [rbx] ; ret
+0x00000000004011a7 : and eax, 0x404044 ; xor ax, word ptr [rbx] ; ret
+0x00000000004011b3 : and eax, 0x404046 ; xor ax, word ptr [rbx] ; ret
+0x00000000004011bf : and eax, 0x404048 ; xor ax, word ptr [rbx] ; ret
+0x00000000004011cb : and eax, 0x40404a ; add ax, word ptr [rbx] ; ret
+0x00000000004011d7 : and eax, 0x40404c ; sub ax, word ptr [rbx] ; ret
+0x00000000004011e3 : and eax, 0x40404e ; sub ax, word ptr [rbx] ; ret
+0x00000000004011ef : and eax, 0x404050 ; add ax, word ptr [rbx] ; ret
+0x00000000004011fb : and eax, 0x404052 ; add ax, word ptr [rbx] ; ret
+0x0000000000401207 : and eax, 0x404054 ; add ax, word ptr [rbx] ; ret
+0x0000000000401213 : and eax, 0x404056 ; sub ax, word ptr [rbx] ; ret
+0x000000000040121f : and eax, 0x404058 ; xor ax, word ptr [rbx] ; ret
+0x000000000040122b : and eax, 0x40405a ; add ax, word ptr [rbx] ; ret
+0x0000000000401237 : and eax, 0x40405c ; add ax, word ptr [rbx] ; ret
+0x0000000000401243 : and eax, 0x40405e ; xor ax, word ptr [rbx] ; ret
+0x000000000040124f : and eax, 0x404060 ; add ax, word ptr [rbx] ; ret
+0x000000000040125b : and eax, 0x404062 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401267 : and eax, 0x404064 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401273 : and eax, 0x404066 ; sub ax, word ptr [rbx] ; ret
+0x000000000040127f : and eax, 0x404068 ; add ax, word ptr [rbx] ; ret
+0x000000000040128b : and eax, 0x40406a ; sub ax, word ptr [rbx] ; ret
+0x0000000000401297 : and eax, 0x40406c ; add ax, word ptr [rbx] ; ret
+0x00000000004012a3 : and eax, 0x40406e ; xor ax, word ptr [rbx] ; ret
+0x00000000004012af : and eax, 0x404070 ; sub ax, word ptr [rbx] ; ret
+0x00000000004012bb : and eax, 0x404072 ; add ax, word ptr [rbx] ; ret
+0x00000000004012c7 : and eax, 0x404074 ; sub ax, word ptr [rbx] ; ret
+0x00000000004012d3 : and eax, 0x404076 ; xor ax, word ptr [rbx] ; ret
+0x00000000004012df : and eax, 0x404078 ; add ax, word ptr [rbx] ; ret
+0x00000000004012eb : and eax, 0x40407a ; add ax, word ptr [rbx] ; ret
+0x00000000004012f7 : and eax, 0x40407c ; sub ax, word ptr [rbx] ; ret
+0x0000000000401303 : and eax, 0x40407e ; sub ax, word ptr [rbx] ; ret
+0x000000000040130f : and eax, 0x404080 ; xor ax, word ptr [rbx] ; ret
+0x000000000040131b : and eax, 0x404082 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401327 : and eax, 0x404084 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401333 : and eax, 0x404086 ; xor ax, word ptr [rbx] ; ret
+0x000000000040133f : and eax, 0x404088 ; sub ax, word ptr [rbx] ; ret
+0x000000000040134b : and eax, 0x40408a ; xor ax, word ptr [rbx] ; ret
+0x0000000000401357 : and eax, 0x40408c ; add ax, word ptr [rbx] ; ret
+0x0000000000401363 : and eax, 0x40408e ; xor ax, word ptr [rbx] ; ret
+0x000000000040136f : and eax, 0x404090 ; xor ax, word ptr [rbx] ; ret
+0x000000000040137b : and eax, 0x404092 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401387 : and eax, 0x404094 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401393 : and eax, 0x404096 ; xor ax, word ptr [rbx] ; ret
+0x000000000040139f : and eax, 0x404098 ; sub ax, word ptr [rbx] ; ret
+0x00000000004013ab : and eax, 0x40409a ; sub ax, word ptr [rbx] ; ret
+0x00000000004013b7 : and eax, 0x40409c ; xor ax, word ptr [rbx] ; ret
+0x00000000004013c3 : and eax, 0x40409e ; sub ax, word ptr [rbx] ; ret
+0x00000000004013cf : and eax, 0x4040a0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004013db : and eax, 0x4040a2 ; sub ax, word ptr [rbx] ; ret
+0x00000000004013e7 : and eax, 0x4040a4 ; add ax, word ptr [rbx] ; ret
+0x00000000004013f3 : and eax, 0x4040a6 ; add ax, word ptr [rbx] ; ret
+0x00000000004013ff : and eax, 0x4040a8 ; add ax, word ptr [rbx] ; ret
+0x000000000040140b : and eax, 0x4040aa ; xor ax, word ptr [rbx] ; ret
+0x0000000000401417 : and eax, 0x4040ac ; sub ax, word ptr [rbx] ; ret
+0x0000000000401423 : and eax, 0x4040ae ; xor ax, word ptr [rbx] ; ret
+0x000000000040142f : and eax, 0x4040b0 ; sub ax, word ptr [rbx] ; ret
+0x000000000040143b : and eax, 0x4040b2 ; add ax, word ptr [rbx] ; ret
+0x0000000000401447 : and eax, 0x4040b4 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401453 : and eax, 0x4040b6 ; xor ax, word ptr [rbx] ; ret
+0x000000000040145f : and eax, 0x4040b8 ; xor ax, word ptr [rbx] ; ret
+0x000000000040146b : and eax, 0x4040ba ; sub ax, word ptr [rbx] ; ret
+0x0000000000401477 : and eax, 0x4040bc ; xor ax, word ptr [rbx] ; ret
+0x0000000000401483 : and eax, 0x4040be ; sub ax, word ptr [rbx] ; ret
+0x000000000040148f : and eax, 0x4040c0 ; xor ax, word ptr [rbx] ; ret
+0x000000000040149b : and eax, 0x4040c2 ; xor ax, word ptr [rbx] ; ret
+0x00000000004014a7 : and eax, 0x4040c4 ; sub ax, word ptr [rbx] ; ret
+0x00000000004014b3 : and eax, 0x4040c6 ; sub ax, word ptr [rbx] ; ret
+0x00000000004014bf : and eax, 0x4040c8 ; xor ax, word ptr [rbx] ; ret
+0x00000000004014cb : and eax, 0x4040ca ; xor ax, word ptr [rbx] ; ret
+0x00000000004014d7 : and eax, 0x4040cc ; xor ax, word ptr [rbx] ; ret
+0x00000000004014e3 : and eax, 0x4040ce ; add ax, word ptr [rbx] ; ret
+0x00000000004014ef : and eax, 0x4040d0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004014fb : and eax, 0x4040d2 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401507 : and eax, 0x4040d4 ; add ax, word ptr [rbx] ; ret
+0x0000000000401513 : and eax, 0x4040d6 ; sub ax, word ptr [rbx] ; ret
+0x000000000040151f : and eax, 0x4040d8 ; xor ax, word ptr [rbx] ; ret
+0x000000000040152b : and eax, 0x4040da ; add ax, word ptr [rbx] ; ret
+0x0000000000401537 : and eax, 0x4040dc ; xor ax, word ptr [rbx] ; ret
+0x0000000000401543 : and eax, 0x4040de ; add ax, word ptr [rbx] ; ret
+0x000000000040154f : and eax, 0x4040e0 ; sub ax, word ptr [rbx] ; ret
+0x000000000040155b : and eax, 0x4040e2 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401567 : and eax, 0x4040e4 ; add ax, word ptr [rbx] ; ret
+0x0000000000401573 : and eax, 0x4040e6 ; xor ax, word ptr [rbx] ; ret
+0x000000000040157f : and eax, 0x4040e8 ; add ax, word ptr [rbx] ; ret
+0x000000000040158b : and eax, 0x4040ea ; sub ax, word ptr [rbx] ; ret
+0x0000000000401597 : and eax, 0x4040ec ; sub ax, word ptr [rbx] ; ret
+0x00000000004015a3 : and eax, 0x4040ee ; sub ax, word ptr [rbx] ; ret
+0x00000000004015af : and eax, 0x4040f0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004015bb : and eax, 0x4040f2 ; add ax, word ptr [rbx] ; ret
+0x00000000004015c7 : and eax, 0x4040f4 ; xor ax, word ptr [rbx] ; ret
+0x00000000004015d3 : and eax, 0x4040f6 ; sub ax, word ptr [rbx] ; ret
+0x00000000004015df : and eax, 0x4040f8 ; add ax, word ptr [rbx] ; ret
+0x00000000004015eb : and eax, 0x4040fa ; add ax, word ptr [rbx] ; ret
+0x00000000004015f7 : and eax, 0x4040fc ; add ax, word ptr [rbx] ; ret
+0x0000000000401603 : and eax, 0x4040fe ; xor ax, word ptr [rbx] ; ret
+0x000000000040160f : and eax, 0x404100 ; add ax, word ptr [rbx] ; ret
+0x000000000040161b : and eax, 0x404102 ; add ax, word ptr [rbx] ; ret
+0x0000000000401627 : and eax, 0x404104 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401633 : and eax, 0x404106 ; add ax, word ptr [rbx] ; ret
+0x000000000040163f : and eax, 0x404108 ; sub ax, word ptr [rbx] ; ret
+0x000000000040164b : and eax, 0x40410a ; xor ax, word ptr [rbx] ; ret
+0x0000000000401657 : and eax, 0x40410c ; sub ax, word ptr [rbx] ; ret
+0x0000000000401663 : and eax, 0x40410e ; sub ax, word ptr [rbx] ; ret
+0x000000000040166f : and eax, 0x404110 ; add ax, word ptr [rbx] ; ret
+0x000000000040167b : and eax, 0x404112 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401687 : and eax, 0x404114 ; add ax, word ptr [rbx] ; ret
+0x0000000000401693 : and eax, 0x404116 ; sub ax, word ptr [rbx] ; ret
+0x000000000040169f : and eax, 0x404118 ; xor ax, word ptr [rbx] ; ret
+0x00000000004016ab : and eax, 0x40411a ; xor ax, word ptr [rbx] ; ret
+0x00000000004016b7 : and eax, 0x40411c ; xor ax, word ptr [rbx] ; ret
+0x00000000004016c3 : and eax, 0x40411e ; add ax, word ptr [rbx] ; ret
+0x00000000004016cf : and eax, 0x404120 ; add ax, word ptr [rbx] ; ret
+0x00000000004016db : and eax, 0x404122 ; xor ax, word ptr [rbx] ; ret
+0x00000000004016e7 : and eax, 0x404124 ; add ax, word ptr [rbx] ; ret
+0x00000000004016f3 : and eax, 0x404126 ; sub ax, word ptr [rbx] ; ret
+0x00000000004016ff : and eax, 0x404128 ; xor ax, word ptr [rbx] ; ret
+0x000000000040170b : and eax, 0x40412a ; add ax, word ptr [rbx] ; ret
+0x0000000000401717 : and eax, 0x40412c ; add ax, word ptr [rbx] ; ret
+0x0000000000401723 : and eax, 0x40412e ; add ax, word ptr [rbx] ; ret
+0x000000000040172f : and eax, 0x404130 ; sub ax, word ptr [rbx] ; ret
+0x000000000040173b : and eax, 0x404132 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401747 : and eax, 0x404134 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401753 : and eax, 0x404136 ; add ax, word ptr [rbx] ; ret
+0x000000000040175f : and eax, 0x404138 ; add ax, word ptr [rbx] ; ret
+0x000000000040176b : and eax, 0x40413a ; sub ax, word ptr [rbx] ; ret
+0x0000000000401777 : and eax, 0x40413c ; add ax, word ptr [rbx] ; ret
+0x0000000000401783 : and eax, 0x40413e ; sub ax, word ptr [rbx] ; ret
+0x00000000004017b8 : cmp al, 0 ; add byte ptr [rax], al ; syscall
+0x0000000000401007 : cmp byte ptr [rdi], dh ; add byte ptr [rax], al ; ret
+0x00000000004014c0 : enter 0x4040, 0 ; xor ax, word ptr [rbx] ; ret
+0x0000000000401003 : in eax, 0x48 ; mov eax, 0x3738 ; ret
+0x00000000004014b4 : mov byte ptr [rax + 0x40], 0 ; sub ax, word ptr [rbx] ; ret
+0x00000000004017f1 : mov eax, 0 ; nop ; pop rbp ; ret
+0x0000000000401005 : mov eax, 0x3738 ; ret
+0x00000000004017b6 : mov eax, 0x3c ; syscall
+0x0000000000401460 : mov eax, 0x66004040 ; xor eax, dword ptr [rbx] ; ret
+0x00000000004017a6 : mov eax, 1 ; syscall
+0x0000000000401002 : mov ebp, esp ; mov rax, 0x3738 ; ret
+0x00000000004017d7 : mov edx, 0x2000 ; syscall
+0x000000000040146c : mov edx, 0x66004040 ; sub eax, dword ptr [rbx] ; ret
+0x0000000000401484 : mov esi, 0x66004040 ; sub eax, dword ptr [rbx] ; ret
+0x00000000004017d4 : mov esi, esp ; mov rdx, 0x2000 ; syscall
+0x0000000000401478 : mov esp, 0x66004040 ; xor eax, dword ptr [rbx] ; ret
+0x00000000004017f0 : mov rax, 0 ; nop ; pop rbp ; ret
+0x0000000000401004 : mov rax, 0x3738 ; ret
+0x00000000004017b5 : mov rax, 0x3c ; syscall
+0x00000000004017a5 : mov rax, 1 ; syscall
+0x00000000004017d6 : mov rdx, 0x2000 ; syscall
+0x000000000040178c : nop ; pop rbp ; ret
+0x00000000004017d5 : out 0x48, al ; mov edx, 0x2000 ; syscall
+0x000000000040178d : pop rbp ; ret
+0x0000000000401280 : push 0x66004040 ; add eax, dword ptr [rbx] ; ret
+0x000000000040100b : ret
+0x00000000004017d8 : ret 0x2000
+0x000000000040149c : ret 0x4040
+0x0000000000401795 : ret 2
+0x00000000004014cc : retf 0x4040
+0x0000000000401490 : rol byte ptr [rax + 0x40], 0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004017f2 : rol byte ptr [rax], 0 ; add byte ptr [rax], al ; nop ; pop rbp ; ret
+0x00000000004017a7 : rol byte ptr [rcx], 0 ; add byte ptr [rax], al ; syscall
+0x0000000000401006 : sar byte ptr [rax], 0x37 ; add byte ptr [rax], al ; ret
+0x000000000040130e : sbb al, 0x25 ; add byte ptr [rax + 0x40], 0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004014be : sbb al, 0x25 ; enter 0x4040, 0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004014b2 : sbb al, 0x25 ; mov byte ptr [rax + 0x40], 0 ; sub ax, word ptr [rbx] ; ret
+0x000000000040145e : sbb al, 0x25 ; mov eax, 0x66004040 ; xor eax, dword ptr [rbx] ; ret
+0x000000000040146a : sbb al, 0x25 ; mov edx, 0x66004040 ; sub eax, dword ptr [rbx] ; ret
+0x0000000000401482 : sbb al, 0x25 ; mov esi, 0x66004040 ; sub eax, dword ptr [rbx] ; ret
+0x0000000000401476 : sbb al, 0x25 ; mov esp, 0x66004040 ; xor eax, dword ptr [rbx] ; ret
+0x000000000040127e : sbb al, 0x25 ; push 0x66004040 ; add eax, dword ptr [rbx] ; ret
+0x000000000040149a : sbb al, 0x25 ; ret 0x4040
+0x00000000004014ca : sbb al, 0x25 ; retf 0x4040
+0x000000000040148e : sbb al, 0x25 ; rol byte ptr [rax + 0x40], 0 ; xor ax, word ptr [rbx] ; ret
+0x00000000004015d2 : sbb al, 0x25 ; test byte ptr [rax + 0x40], 0 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401068 : sub ax, word ptr [rbx] ; ret
+0x0000000000401069 : sub eax, dword ptr [rbx] ; ret
+0x00000000004017ac : syscall
+0x00000000004015d4 : test byte ptr [rax + 0x40], 0 ; sub ax, word ptr [rbx] ; ret
+0x0000000000401020 : xor ax, word ptr [rbx] ; ret
+0x0000000000401021 : xor eax, dword ptr [rbx] ; ret
+
+Unique gadgets found: 227

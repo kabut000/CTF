@@ -1,0 +1,76 @@
+Gadgets information
+============================================================
+0x000000000002491b : pop r12 ; pop r13 ; pop r14 ; pop r15 ; pop rbp ; ret
+0x0000000000023b6b : pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+0x000000000002604a : pop r12 ; pop r13 ; pop r14 ; ret
+0x00000000000ef1c4 : pop r12 ; pop r13 ; pop r15 ; ret
+0x00000000000460a4 : pop r12 ; pop r13 ; pop rbp ; ret
+0x0000000000025bcb : pop r12 ; pop r13 ; ret
+0x000000000008e260 : pop r12 ; pop r14 ; ret
+0x000000000012cfad : pop r12 ; pop rbp ; ret
+0x000000000002f739 : pop r12 ; ret
+0x000000000002491d : pop r13 ; pop r14 ; pop r15 ; pop rbp ; ret
+0x0000000000023b6d : pop r13 ; pop r14 ; pop r15 ; ret
+0x000000000002604c : pop r13 ; pop r14 ; ret
+0x00000000000ef1c6 : pop r13 ; pop r15 ; ret
+0x00000000000460a6 : pop r13 ; pop rbp ; ret
+0x0000000000025bcd : pop r13 ; ret
+0x000000000002491f : pop r14 ; pop r15 ; pop rbp ; ret
+0x0000000000023b6f : pop r14 ; pop r15 ; ret
+0x000000000002604e : pop r14 ; ret
+0x0000000000024921 : pop r15 ; pop rbp ; ret
+0x0000000000023b71 : pop r15 ; ret
+0x000000000005523f : pop rax ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; ret
+0x00000000000226be : pop rax ; pop rbx ; pop rbp ; ret
+0x000000000015f7e5 : pop rax ; pop rdx ; pop rbx ; ret
+0x0000000000047400 : pop rax ; ret
+0x0000000000023b6a : pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+0x0000000000026049 : pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+0x00000000000ef1c3 : pop rbp ; pop r12 ; pop r13 ; pop r15 ; ret
+0x0000000000025bca : pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000008e25f : pop rbp ; pop r12 ; pop r14 ; ret
+0x000000000002f738 : pop rbp ; pop r12 ; ret
+0x000000000013644e : pop rbp ; pop r13 ; pop r14 ; pop r15 ; ret
+0x000000000002491e : pop rbp ; pop r14 ; pop r15 ; pop rbp ; ret
+0x0000000000023b6e : pop rbp ; pop r14 ; pop r15 ; ret
+0x000000000002604d : pop rbp ; pop r14 ; ret
+0x00000000000ef1c7 : pop rbp ; pop r15 ; ret
+0x00000000000460a7 : pop rbp ; pop rbp ; ret
+0x0000000000055be8 : pop rbp ; pop rbx ; ret
+0x00000000000226c0 : pop rbp ; ret
+0x000000000010fee0 : pop rbx ; pop r12 ; pop r13 ; pop r14 ; ret
+0x00000000000460a3 : pop rbx ; pop r12 ; pop r13 ; pop rbp ; ret
+0x0000000000062599 : pop rbx ; pop r12 ; pop r13 ; ret
+0x000000000005b967 : pop rbx ; pop r12 ; ret
+0x000000000003043a : pop rbx ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+0x00000000000ef1c2 : pop rbx ; pop rbp ; pop r12 ; pop r13 ; pop r15 ; ret
+0x0000000000025bc9 : pop rbx ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000008e25e : pop rbx ; pop rbp ; pop r12 ; pop r14 ; ret
+0x000000000002f860 : pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000013644d : pop rbx ; pop rbp ; pop r13 ; pop r14 ; pop r15 ; ret
+0x0000000000196b72 : pop rbx ; pop rbp ; pop r14 ; ret
+0x00000000000226bf : pop rbx ; pop rbp ; ret
+0x000000000002fddf : pop rbx ; ret
+0x0000000000119180 : pop rcx ; pop rbp ; pop r12 ; pop r13 ; ret
+0x00000000001586f3 : pop rcx ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+0x00000000001025ae : pop rcx ; pop rbx ; ret
+0x0000000000118d7f : pop rcx ; ret 0xf66
+0x0000000000024922 : pop rdi ; pop rbp ; ret
+0x0000000000023b72 : pop rdi ; ret
+0x0000000000119241 : pop rdx ; pop r12 ; ret
+0x000000000015f7e6 : pop rdx ; pop rbx ; ret
+0x00000000001025ad : pop rdx ; pop rcx ; pop rbx ; ret
+0x0000000000024920 : pop rsi ; pop r15 ; pop rbp ; ret
+0x0000000000023b70 : pop rsi ; pop r15 ; ret
+0x000000000002604f : pop rsi ; ret
+0x0000000000133fe6 : pop rsi ; ret 0xb
+0x000000000002491c : pop rsp ; pop r13 ; pop r14 ; pop r15 ; pop rbp ; ret
+0x0000000000023b6c : pop rsp ; pop r13 ; pop r14 ; pop r15 ; ret
+0x000000000002604b : pop rsp ; pop r13 ; pop r14 ; ret
+0x00000000000ef1c5 : pop rsp ; pop r13 ; pop r15 ; ret
+0x00000000000460a5 : pop rsp ; pop r13 ; pop rbp ; ret
+0x0000000000025bcc : pop rsp ; pop r13 ; ret
+0x000000000008e261 : pop rsp ; pop r14 ; ret
+0x000000000012cfae : pop rsp ; pop rbp ; ret
+0x000000000002f73a : pop rsp ; ret
+0x0000000000099050 : pop rsp ; ret 0xffff
